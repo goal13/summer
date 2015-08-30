@@ -1,1 +1,30 @@
 encoding: utf-8
+---
+layout: default
+
+#Site owner
+owner:
+  name:goal1313
+  email:zhuyatingenen@gmail.com
+  avatar: # 160x160 px image for author byline 
+
+# Site wide configuration
+title:goal13'blog^^
+description:
+logo: # 120x120 px default image used for Twitter summary card
+teaser: # 400x250 px default teaser image used in image archive grid
+locale:
+url:
+
+# Jekyll configuration
+sass:
+    sass_dir: _sass
+    style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: pygments
+gems:
+  
+
+----

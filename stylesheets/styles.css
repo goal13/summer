@@ -2,9 +2,10 @@
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,7 +22,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:38px;
 }
 
 h2 {
@@ -39,7 +40,7 @@ a {
 }
 
 a small {
-  font-size:11px;
+  font-size:14px;
   color:#777;
   margin-top:-0.6em;
   display:block;
@@ -60,7 +61,7 @@ blockquote {
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   color:#333;
-  font-size:12px;
+  font-size:16px;
 }
 
 pre {
@@ -93,12 +94,14 @@ th {
 
 img {
   max-width:100%;
+  margin:20px auto;
 }
 
 header {
   width:270px;
   float:left;
   position:fixed;
+  /*background-color: wheat*/
 }
 
 header ul {
@@ -163,17 +166,20 @@ section {
   width:500px;
   float:right;
   padding-bottom:50px;
+  color:#000;
+
 }
 
 small {
-  font-size:11px;
+  font-size:13px;
 }
 
-hr {
+hr  small{
   border:0;
-  background:#e5e5e5;
+  background:#000;
   height:1px;
-  margin:0 0 20px;
+  margin:0 0 0 0;
+  color: #000
 }
 
 footer {
@@ -185,15 +191,17 @@ footer {
 
 @media print, screen and (max-width: 960px) {
 
-  div.wrapper {
+  .wrapper {
     width:auto;
     margin:0;
-  }
+    background-color: #000;
+    }
 
   header, section, footer {
     float:none;
     position:static;
     width:auto;
+    background-color:#99bbbb;
   }
 
   header {
@@ -253,3 +261,5 @@ footer {
     color:#444;
   }
 }
+div#header {background-color:#000;
+  }
